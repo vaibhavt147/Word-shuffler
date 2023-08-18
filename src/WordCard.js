@@ -12,11 +12,15 @@ function WordCard({
 }) {
   const currentword = wordlist[currentwordindex];
   const handleclick = (type) => {
-    let newrevisionwords = type ? revisionwords : [...revisionwords, currentword];
+    let newrevisionwords = type
+      ? revisionwords
+      : [...revisionwords, currentword];
     let newindex = currentwordindex + 1;
-    if (currentword === maxindex) {
+    if (currentwordindex === maxindex) {
+      console.debug(currentword, maxindex);
       newindex = 0;
       setWordlist(newrevisionwords);
+      newrevisionwords = [];
     }
     setRevisionwords(newrevisionwords);
     setCurrentwordindex(newindex);
@@ -48,7 +52,9 @@ function WordCard({
             backgroundColor: "#8ED653",
             border: "10px",
           }}
-          onClick={handleclick}
+          onClick={() => {
+            handleclick(true);
+          }}
         >
           I know this word
         </button>
@@ -61,7 +67,9 @@ function WordCard({
             backgroundColor: "#E35D82",
             border: "10px",
           }}
-          onClick={handleclick}
+          onClick={() => {
+            handleclick(false);
+          }}
         >
           Don't know this word
         </button>

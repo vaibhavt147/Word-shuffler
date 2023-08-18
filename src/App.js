@@ -10,6 +10,7 @@ function App() {
   const [wordlist, setWordlist] = useState([]);
   const [revisionwords, setRevisionwords] = useState([]);
   const [currentwordindex, setCurrentwordindex] = useState(0);
+  const [refreshwords, setRefreshwords] = useState(true);
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -33,13 +34,13 @@ function App() {
   const getWordlist = async () => {
     const allwords = await fetchData();
     const shuffledWords = shuffleArray(allwords);
-    const randomwords = shuffledWords.slice(0, 50);
+    const randomwords = shuffledWords.slice(0, 5);
     setWordlist(randomwords);
   };
 
   useEffect(() => {
     getWordlist();
-  }, []);
+  }, [refreshwords]);
 
   return (
     <div className="App">
@@ -53,7 +54,7 @@ function App() {
             setCurrentwordindex={setCurrentwordindex}
             revisionwords={revisionwords}
             setRevisionwords={setRevisionwords}
-            maxindex={wordlist.length}
+            maxindex={wordlist.length - 1}
           ></WordCard>
         ) : (
           <div
@@ -65,10 +66,16 @@ function App() {
               borderRadius: "5px",
             }}
             onClick={() => {
-              setShowmeaning(true);
+              wordlist[currentwordindex]
+                ? setShowmeaning(true)
+                : setRefreshwords(!refreshwords);
             }}
           >
-            <h1>{wordlist[currentwordindex]?.word}</h1>
+            {wordlist.length ? (
+              <h1>{wordlist[currentwordindex]?.word}</h1>
+            ) : (
+              <h1>Out of words, Click to get more words</h1>
+            )}
           </div>
         )}
       </header>
