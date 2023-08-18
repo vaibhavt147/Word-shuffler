@@ -8,6 +8,8 @@ const Papa = require("papaparse");
 function App() {
   const [showmeaning, setShowmeaning] = useState(false);
   const [wordlist, setWordlist] = useState([]);
+  const [revisionwords, setRevisionwords] = useState([]);
+  const [currentwordindex, setCurrentwordindex] = useState(0);
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -43,7 +45,16 @@ function App() {
     <div className="App">
       <header className="App-header">
         {showmeaning ? (
-          <WordCard setShowmeaning={setShowmeaning} worddata = {wordlist[0]}></WordCard>
+          <WordCard
+            setShowmeaning={setShowmeaning}
+            setWordlist={setWordlist}
+            wordlist={wordlist}
+            currentwordindex={currentwordindex}
+            setCurrentwordindex={setCurrentwordindex}
+            revisionwords={revisionwords}
+            setRevisionwords={setRevisionwords}
+            maxindex={wordlist.length}
+          ></WordCard>
         ) : (
           <div
             style={{
@@ -57,7 +68,7 @@ function App() {
               setShowmeaning(true);
             }}
           >
-            <h1>{wordlist[0]?.word}</h1>
+            <h1>{wordlist[currentwordindex]?.word}</h1>
           </div>
         )}
       </header>

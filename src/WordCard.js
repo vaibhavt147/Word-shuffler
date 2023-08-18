@@ -1,6 +1,27 @@
 import React from "react";
 
-function WordCard({ setShowmeaning, worddata }) {
+function WordCard({
+  setShowmeaning,
+  setWordlist,
+  wordlist,
+  currentwordindex,
+  setCurrentwordindex,
+  revisionwords,
+  setRevisionwords,
+  maxindex,
+}) {
+  const currentword = wordlist[currentwordindex];
+  const handleclick = (type) => {
+    let newrevisionwords = type ? revisionwords : [...revisionwords, currentword];
+    let newindex = currentwordindex + 1;
+    if (currentword === maxindex) {
+      newindex = 0;
+      setWordlist(newrevisionwords);
+    }
+    setRevisionwords(newrevisionwords);
+    setCurrentwordindex(newindex);
+    setShowmeaning(false);
+  };
   return (
     <div
       style={{
@@ -15,10 +36,10 @@ function WordCard({ setShowmeaning, worddata }) {
         borderRadius: "5px",
       }}
     >
-      <h2>{worddata?.word}</h2>
-      <h3>{worddata?.synonym}</h3>
-      <h5>{worddata?.meaning}</h5>
-      <h5>{worddata?.usecase}</h5>
+      <h2>{currentword?.word}</h2>
+      <h3>{currentword?.synonym}</h3>
+      <h5>{currentword?.meaning}</h5>
+      <h5>{currentword?.usecase}</h5>
       <div style={{ width: "400px", height: "40px", padding: "10px" }}>
         <button
           style={{
@@ -27,9 +48,7 @@ function WordCard({ setShowmeaning, worddata }) {
             backgroundColor: "#8ED653",
             border: "10px",
           }}
-          onClick={() => {
-            setShowmeaning(false);
-          }}
+          onClick={handleclick}
         >
           I know this word
         </button>
@@ -42,9 +61,7 @@ function WordCard({ setShowmeaning, worddata }) {
             backgroundColor: "#E35D82",
             border: "10px",
           }}
-          onClick={() => {
-            setShowmeaning(false);
-          }}
+          onClick={handleclick}
         >
           Don't know this word
         </button>
