@@ -11,6 +11,7 @@ function App() {
   const [revisionwords, setRevisionwords] = useState([]);
   const [currentwordindex, setCurrentwordindex] = useState(0);
   const [refreshwords, setRefreshwords] = useState(true);
+  const number = 50
 
   function shuffleArray(array) {
     for (let i = array.length - 1; i > 0; i--) {
@@ -34,7 +35,7 @@ function App() {
   const getWordlist = async () => {
     const allwords = await fetchData();
     const shuffledWords = shuffleArray(allwords);
-    const randomwords = shuffledWords.slice(0, 5);
+    const randomwords = shuffledWords.slice(0, number);
     setWordlist(randomwords);
   };
 
