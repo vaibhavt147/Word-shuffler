@@ -75,7 +75,10 @@ function App() {
             {wordlist.length ? (
               <h1>{wordlist[currentwordindex]?.word}</h1>
             ) : (
-              <h1>Out of words, Click to get more words</h1>
+              <h1>
+                Congratulations, you're smart AF! <br />
+                Click here to smash more
+              </h1>
             )}
           </div>
         )}
