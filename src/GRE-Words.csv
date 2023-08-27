@@ -45,9 +45,9 @@ erratic,"not a regular pattern or movement, unpredictable","inconsistent, uncert
 macabre,disurbing because concerned with fear of death,"gruesome, grisly",a macabre series of death
 vindictive,having strong desire for revange,"vengeful, avenging, unforgiving",the criticism was both indictive and personalized
 ambivalent,mixed or conflicting emotions about something,"equivocal, indecisive, uncertain","Some people liked the song, some didn't, few were ambivalent about it"
-chastise,"to reprimand harshly, to scold","upbraid, castigate",He chastised his colleagues for their laziness
+chastise,"to reprimand harshly, to scold","upbraid, castigate, lambast",He chastised his colleagues for their laziness
 innocuous,"harmless, innocent",,The puppy was quite innocuous
-censure,to express strong disapproval,"chastise, castigate, upbraid","After caught in the scam, the mayer was quickely sensured by the city council"
+censure,to express strong disapproval,"chastise, castigate, upbraid, lambast","After caught in the scam, the mayer was quickely censured by the city council"
 belie,to give a false representation,"misrepresent, discredit, contradict",The smile on her face belies the pain she has suffered
 enervate,to sap energy from,exhaust,The intense sun always leave us enervated in Africa
 mercurial,subject to sudden unpredictable changes in mood or mind,"volatile, capricious, temperamental",my mercurial temperament
@@ -79,15 +79,15 @@ qualify,"to make less severe, to limit","He qualified his love for Mumbai, addin
 undermine,"to weaken, to lessen the effectiveness, power or ability of","subvert, sabotage, diminish, compromise",This could undermine years of hard work
 amenable,easily persuaded or controlled,"gullible, compliant, acquiescent, biddable, persuadable",Shirley was generally amenable and so her brother was able to persuade her to go camping
 amalgam,a mixture of multiple things,compound,
-parsimonious,exteremly frugal,I'm so parsimonious that I only buy a pair of socks if all of my other socks have holes in them,
+parsimonious,exteremly frugal,,I'm so parsimonious that I only buy a pair of socks if all of my other socks have holes in them
 vindicate,to clear someone of blame or suspicion,"acquit, absolve, exonerate",Hospital staff were vindicted by the inquest verdict
 disinterested,"unbiased, neutral","unprejudiced, impartial",
 restive,"restless, unable to remain still, silent, especially because of boredom or dissatisfaction","fidgety, edgy, tense, uneasy",The crowd has been waiting for hours and manry were becoming restive
 anomalous,not normal,"abnormal, atypical, aberrant, exceptional",an anomalous situation
 harangue,a lengthy and aggresive speech,"tirade, diatribe, homily, polemic, fulmination",
 iconoclast,a person who attacks or criticizes cherished beliefs or institutions,"sceptic, critic, heretic, nonconformist, dissident",
-extenuating,making less guilty or more forgivable,,His lonelyness was an extenuating facor in his crime of dognapping a prized pooch
-exhort,strongly encourage or urge (someone) to do something,"urge, enjoin, adjure",Indian parents exhort on their kids to medicine or engineering
+extenuating,making less guilty or more forgivable,"mitigate, justifying, vindicatory",His lonelyness was an extenuating facor in his crime of dognapping a prized pooch
+exhort,strongly encourage or urge (someone) to do something,"urge, enjoin, adjure",Indian parents exhort on their kids to study medicine or engineering
 badger,repeated ask someone to do something,"pester, harass,bother",Tom has finally badgered her into going
 junta,military that rules the country after taking power by force,"faction, cabal, clique",
 apex,highest point,"pinnacle, zenith, acme, culmination",the apex of the roof
@@ -101,7 +101,7 @@ virago,an ill-tempered or violent woman,"harridan, shrew, termagant, vixen",
 flush,to be in abundance,,The exam's passage is flush with difficult words
 beatific,feeling or expressing blissful happiness,"serene, rapturous, ecstatic, seraphic",beatific smile of the buddha
 above board,open and honest,"straight, candid",We felt the judging was all above board and fair
-scintillating,brilliant or clever,bright,"dazzling, exhilarating, shining"
+scintillating,brilliant or clever,"dazzling, exhilarating, shining",
 sanguine,"optimystic, positive","hopeful, cheerful, bullish, confident",He is sanguine about the prospects of the global economy
 hodgepodge,a confused mixture,"hotchpotch, mixture, assortment, assemblage",My living room is hodepodge of modern furniture and antiques
 becoming,appropriate and matches nicely,"flattering, fetching, attractive",what a becoming dress
@@ -134,3 +134,47 @@ contrite,"to be remoresful, to regret deeply","repentant, penitant",He was speak
 animosity,intense hostility,"antipathy, antagonism, enmity",He no longer felt any animosity towards her
 errant,to be wandering,"roaming, rambling, intinerant",errant walks
 vicarious,experienced in the imagination through the feelings or actions of another person,"indirect, secondary, proxy",this catalogue brings vicarious pleasure in luxury living
+preclude,"prevent from happening, make it impossible","prevent, rule out",The secret nature of his work precluded office recognition
+gainsay,deny or contradict,"dispute, deny, challenge",The impact of the railways can not be gainsaid
+impudent,improperly forward or bold,impertinent,"In an impudent move, the defendant spoke out of order to say terribly insulting things to the judge"
+fortuitous,happening by chance rather than discussion,"serendipitous, unanticipated, unforseen",The similary between the pictures may not be simply fortuitous
+dogmatic,"opinionated, not accepting that one's own beliefs may not be correct","peremptory, assertive, imperative, insistent",She was not tempted to be dogmatic about what she believed
+querulous,"habitually complaining, complaining in whining manner","petulant, pettish, touchy, complaining",She became quite querulous and demanding
+eschew,"deliberately avoid using, abstrain from","refrain from, renounce",He appealed the crowd to eschew violence
+frivolous,not having serious purpose or value,"joking, flippant",
+torpor,"a state of physical or mental inactivity, lethargy","inertia, sluggishness","After work, I found my colleagues in a complete state of torpor"
+deferential,"showing respect, deference","humble, respectful, attentive",People were always deferential to him
+apathetic,marked by lack of interest,"uninterested, indifferent",Her dry texts were showing her apathetic nature
+culminate,reach the highest point or most decisive point,come to head,Weeks of violence culminated in the brutal murder of the magistrate
+obscure,"known to very few, unclear","unclear, uncertain, arcane, abstruse",His origin and parentage are obscure
+glut,"in abundance, an excessive supply","surplus, surfeit",There is a glut of cars in the market
+mawkish,sentimental in an exaggerated or false way,"over-sentimental, overemotional",a mawkish ode to parenthood
+concede,accept defeat,"surrender, forefeit, admit, accept",The emporer conceded Vatican City
+engender,give rise to,"cause, produce",The restrictions engendered deep hatred and resentment in people
+banal,"lacking originality, familiar due to overuse","platitudinous, cliched, trite, vapid",banal songs with repeated words
+prescience,the power to forsee future,foresight,"With extraordinary prescience, Jung actually predicted the Nazi eruption"
+chortle,"to chuckle, laugh merely","giggle, titter",He chortled at his own pun
+culpability,a state of guilt ,"accountability, liability, blame, fault",a level of moral culpability
+mitigate,"make it less sever, less harsh","extenuate, diminish, reduce, alleviate",The drainage schemes have helped to mitigate this problem
+exacerbate,make worse,"aggravate, inflame, intensify",
+volubility,a quality of talking fluent,"talkactiveness, loquacity",Her legendary volubility deserted her
+germane,relevant & approapriate,"to the point, pertinent",That is not germane to our theme
+rustic,characteristics of the rural life,"bucolic, plain, simple, unsophisticated",rustic pottery
+superfluous,unnecessary,"redundant, excess, unneded",The purchaser should avoid asking superfluous questions about the product
+perfidy,"act of betrayal, a breach of trust","treachery, duplicity, deceit",It was an example of his perfidy
+conspicuous,completely obvious,"noticeable, clearly visibile, standing out","He was very thin, with a conspicuous Adam's apple"
+predilection,strong liking,"liking, fondness, preference",my predilection towards Maharashtrian food
+incisive,analytical and clear thinking,"acute, sharp, penetrating, keen",She was an incisive critic
+gossamer,light and thin,tenuous,gossamer wings of butterflies
+platitude,a remark or statement,"cliche, banality",
+entrenched,established habits or attitude or beliefs,"ingained, well established, confirmed",An entrenched resistance to change
+reticent,not revealing one's thoughts or feelings,"reserved, introverted, restrained, withdrawn",She was extremely reticent about her personal affairs
+didatic,instructive,"informative, educative",the didatic novel
+inexorable,impossible to stop or prevent,"relentless, unstoppable, inescapable",
+decorous,in keeping with good taste and propriety,"becoming, proper, seemly, decent",Charlotte gave Dave a decorous kiss
+diffident,modest or shy because of lack of self-confidence,"shy, modest","As a young girl she was diffident and reserved, but now as an adult, she is confident and assertive"
+lambast,"criticize harshly, reprimand","chastise, castigate, censure, condemn",They lambasted the report as a gross distortion of the truth
+vociferous,offensively loud,"vocal, vehement",He was a vociferous opponent of the takeover
+bucolic,relating to the pleasant aspects of the countryside and country life,"rustic, rural, pastoral",The church is lovely for its bucolic setting
+meticulous,showing great attention to details,"ultra-careful, diligent, conscientious",The Japanese noodlemaker was meticulous in making his noodles.
+recondite,little known,"obscure, abstruse, arcane",The book is full of recondite information
