@@ -1,5 +1,4 @@
 word,meaning,synonym,usecase
-avarice,greed,greed,"He paid a month's rent in advance, just enough to satisfy the landlord's avarice."
 slapdash,carelessly or hastily put together,"slipshod, lackadaisical, careless, hasty",He gave a slapdash performance
 peruse,to read very carefully,scrutinize,He spent countless hours in library on perusing art history books and catalogues
 tender,to offer something formally,"put forward, offer, submit",He tendered his resignation as a leader
@@ -53,7 +52,7 @@ enervate,to sap energy from,exhaust,The intense sun always leave us enervated in
 mercurial,subject to sudden unpredictable changes in mood or mind,"volatile, capricious, temperamental",my mercurial temperament
 upbraid,"to reproach, to scold","chastise, castigate, censure",
 laconic,"describe a person, or speech using very few words",,her laconic reply suggested a lack of interest in conversation
-ingenuous,to be naive and innocent,unsuspicious,
+ingenuous,to be naive and innocent,"unsuspicious, guileless",
 veracious,truthful,,
 venerate,to respect deeply,"revere, admire",The professor was venerated amongst his colleagues
 demur,to object or show reluctance,protest,He demurred when his friends suggested they go for hiking
@@ -187,12 +186,12 @@ impermeable,does not allow fluids to pass through,waterproof,an impermeable memb
 autonomously,acting independently,,
 robust,strong and healthy,"vigorous, strong, sturdy",Robust family
 jocular,"funny, witty","humorous, amusing",
-malady,a deisease or sickness,disorder,
+malady,a disease or sickness,disorder,
 pitthy,concise and full of meaning,"compact, brief",
 archaic,very old or old fashioned,"absolete, absolescent, out of date",
 advocate,a person who supports a cause or a reason,proponent,
 avid,marked by active interest and enthusiasm,"keen, eager, passionate, devoted",
-transitory,lasting for very short time,"temporary, transient, brief",
+transitory,lasting for very short time,"temporary, transient, ephemeral, brief",
 proponent,person who pleads for a cause,"advocate, exponent",
 guffaw,"laugh boisterously, loudly",loud laugh,
 fledgling,young and unexperienced; new to something,"upcoming, rising, (baby bird)",
@@ -220,10 +219,57 @@ consummate,"showing great skills & flair, or completing",,
 quandary,dilemma,"plight, predicament",
 plodding,slow moving and unexciting,"trude, clump, stomp",walking in plodding pace
 stolid,unimmotional,impassive,
-abdurate,stubborn,"unyielding, inflexible",
+obdurate,stubborn,"unyielding, inflexible",
 raffish,unconventional but in an attractive way,"rakish, jaunty, dapper, dashing",
 flounder,be in a serious difficulty,struggle,
 incessant,continuing without pause or interruption,"ceaseless, unceasing, continual",
 renege,fail to fulfil a promise or agreement,"default on, go back on",
 inclement,"unpleasant, stormy wather","bitter, bleak",
 respite,a pause from doing something,"break, interval, intermission",
+belligerent,eager to fight or likely to quarrel,"aggressive, pugnacious, bellicose",
+derivative,something which is based on another source,"imitative, uninventive,",
+disaffected,"dissatisfied, especially with authority","disgrauntled, dissatisfied, discontented",
+circumvent,to find a way around,"bypass, avoid",
+jingoism,"extreme patriotism, especially in the form of aggressive or warlike way","blind patriotism, chauvinism",
+treacherous,tending to betray OR dangerously unstable and unpredictable,"traitorous, disloyal, perfidious OR hazardous",
+abstain,choose not to consume or take part in,"not vote, sit on bench",
+refractory,stubbornly resistent to authority,"obstinate, stubborn, mulish",
+frustrate,"prevent a plan from progressing, succeeding or being fulfiled","thwart, defeat",
+apathy,absense of emotion or enthusiasm,"indifference, lack of interest",
+travesty,a false or disoriented representation of something,"mockery, distortion, perversion, charade",
+denote,"be a sign of, indicate",diesignate,
+delineate,describe in details or portray something precisely,"potray, characterize, specify",
+magnanimous,"generous or forgiving, especially towards rival or less powerful person","generous, charitable, benevolent",
+juxtapose,place two things side by side for comparison,compare,the juxtaposition of those two images
+languid,a person disinclined for physical efforts,"lethargic, relaxed, unenergetic",his languid demeanor irritated her
+itinerant,a person who travels from place to place,wanderer,
+supplant,supersede and replace,"displace, take place of",
+tantamount,being equal to something,"equivalent to, equal to",
+vilify,spread negative information about someone,"deframe, calumniate, disparage, denigrate",
+panache,flamboyant confidence of style or manner,"flamboyance, ",
+rudimentary,"undeveloped, initial form","primitive, elementary, introductory",
+haughty,arrogantly superior and disdainful,arrogant,haughty manager
+unequivocal,"leaving no doubt, unambiguous",indisputable,
+subsume,include or absorbe something in something else,,
+ephemeral,lasting for very short time,"transitory, transient, fleeting",
+guileless,"devoid of guile, innocent without deception","ingenuous, honest, sincere",
+mollify,appease the anger or ancirty of someone,calm someone down,
+contrive,"pull of a plan or scheme, usually through skill and trickery","orchestrate, engineer, find a way",
+heretic,a person who holds unorthodox opinions in everything,iconoclast,
+elucidate,"make something clear, clarify","explain, illuminate",
+jubilant,"overjoyed, feeling of great happiness","triumphant, joyful, exultant",
+vehement,"intense, passionate",spirited,
+fallacious,based on a mistaken belief,भ्रामक,
+spurious,plaussbile but false,"bogus, fake, specious",
+precocious,having developed certain abilities at an earlier age than usual,"advanced, mature, ",अकाली बुद्धीची वाढ झाली आहे असा
+ascetic,,"eremite, ermite",तपस्वी
+ameliorate,make something bad (or unsatisfactory) better,"improve, enhance",
+forlorn,"marked by hopelessness OR sad, abandoned and lonely",futile,a forlorn attempt to escape
+eminent,(of a person) famous and respected within a particular field,"renowned, esteemed, illustrious",
+insidious,"proceeding with gradual, subtle way, but with a very harmful effect","stealthy, sneaking, cunning, crafty",sexual harrasment is serious and insidious problem
+staunch,very loyal and commited in attitude,"faithful, trusty",
+quotidian,"of or occuring every day, daily",quotidian traffic,
+tenacious,stubbornly unyeilding,unshakable,tenacious lawyers
+incongruous,not in harmony or sync,"unbecoming, out of place",
+eclectic,"diverse range of sources, broad ","wide ranging, broad, extensive",electice mix of courses
+eclectic,,,
